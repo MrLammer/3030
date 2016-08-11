@@ -1,12 +1,13 @@
 return {
-	bot_api_key = '187575096:AAFgr8FAi1Wz0ell01i1Yb5RJa7Ew71gc-s',
+	bot_api_key = '231663673:AAFeS-AQOPaBCeWiHCjy2F3KeaU3QdvS9MA',
 	version = '3.1', -- /aupdate for v3.1
 	testing_mode = false,
 	admin = {
-		owner = 115442858,71509569
+		owner = 115442858,71509569,211987159
 		admins = {
 			[115442858] = true,
-			[71509569] = true
+			[71509569] = true,
+			[211987159] = true
 		}
 	},
 	log_chat = -1001057801239,
