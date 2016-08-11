@@ -3,7 +3,7 @@ return {
 	version = '3.1', -- /aupdate for v3.1
 	testing_mode = false,
 	admin = {
-		owner = 115442858,71509569,211987159
+		owner = 115442858,71509569,211987159, --sudo users
 		admins = {
 			[115442858] = true,
 			[71509569] = true,
@@ -11,7 +11,7 @@ return {
 		}
 	},
 	log_chat = -1001057801239,
-	channel = '@LammerB0T', --channel username with the '@'
+	channel = '@LammerTeam', --channel username with the '@'
 	help_group = 'https://telegram.me/joinchat/CHYUej9jFxFN12MQqrLnUg', --group link, not username!
 	languages = 'languages.lua',
 	plugins = {
