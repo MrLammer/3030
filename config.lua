@@ -1,18 +1,16 @@
 return {
-	bot_api_key = '231663673:AAFeS-AQOPaBCeWiHCjy2F3KeaU3QdvS9MA',
+	bot_api_key = '182642770:AAGfzDopyPVNY4H_YN0jirCTwxhxREvCeqc',
 	version = '3.1', -- /aupdate for v3.1
 	testing_mode = false,
 	admin = {
-		owner = 115442858,71509569,211987159, --sudo users
+		owner = 115442858 --sudo users
 		admins = {
-			[115442858] = true,
-			[71509569] = true,
-			[211987159] = true
+			[115442858] = true
 		}
 	},
 	log_chat = -1001057801239,
 	channel = '@LammerTeam', --channel username with the '@'
-	help_group = 'https://telegram.me/joinchat/BuGEqj-pypcbeAxJEQVX6w', --group link, not username!
+	help_group = 'https://telegram.me/joinchat/BuGEqkBN9Yj35iZVqzBYbA', --group link, not username!
 	languages = 'languages.lua',
 	plugins = {
 		'onmessage.lua', --THIS HAVE TO BE THE FIRST: IF AN USER IS SPAMMING/IS BLOCKED, THE BOT WON'T GO THROUGH PLUGINS
@@ -32,8 +30,7 @@ return {
 		'mediasettings.lua',
 		'private.lua',
 		'admin.lua',
-		'faq.lua',
-		--'test.lua'
+		'faq.lua'
 	},
 	available_languages = {
 		'en',
@@ -47,7 +44,6 @@ return {
 		'fr',
 		'tc',
 		'fa'
-		--more to come
 	},
 	media_list = {
 		'image',
@@ -146,7 +142,7 @@ return {
 		[134] = 'USER_ID_INVALID',
 		[135] = 'CHAT_INVALID',
 
-		[403] = 'Bot was blocked by the user', --user blocked the bot
+		[403] = 'Bot was blocked by the user.ربات توسط کاربر بلاک شد', --user blocked the bot
 		[429] = 'Too many requests: retry later', --the bot is hitting api limits
 		[430] = 'Too big total timeout', --too many callback_data requests
 	}
