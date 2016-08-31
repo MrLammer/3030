@@ -3,7 +3,7 @@ return {
 	version = '3.1', -- /aupdate for v3.1
 	testing_mode = false,
 	admin = {
-		owner = 115442858 --sudo users
+		owner = 115442858, --sudo users
 		admins = {
 			[115442858] = true
 		}
